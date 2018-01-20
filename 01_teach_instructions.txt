@@ -1,0 +1,8 @@
+achieve pickup arm1 cup table1
+achieve move arm1 table1 tray1
+achieve putdown arm1 cup tray1
+achieve move arm1 tray1 table1
+achieve pickup arm1 spoon table1
+achieve move arm1 table1 tray1
+achieve putdown arm1 spoon tray1
+teach_task table1 tray1

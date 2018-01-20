@@ -1,0 +1,1 @@
+The 'jaco' EBPD has been designed for the integration of an EBPD system into a real robotic arm environment. We define a class of ClearATable'' task in this EBDP. The goal of this task is to clear a table by picking up a set of objects from a table and placing them on a tray. Throughout this repository, we present different concepts used to create this domain in EBPD.
