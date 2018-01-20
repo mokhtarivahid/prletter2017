@@ -1,8 +1,12 @@
-achieve pickup arm1 cup table1
-achieve move arm1 table1 tray1
-achieve putdown arm1 cup tray1
-achieve move arm1 tray1 table1
-achieve pickup arm1 spoon table1
-achieve move arm1 table1 tray1
-achieve putdown arm1 spoon tray1
+achieve detect_pose_object jaco obj1 table1
+achieve pick_up_object jaco obj1 table1
+achieve carry_object jaco obj1 table1 table2
+achieve detect_pose_object jaco obj1 table2
+achieve place_object jaco obj1 table2
+achieve move_arm jaco table2 table1
+achieve detect_pose_object jaco obj2 table1
+achieve pick_up_object jaco obj2 table1
+achieve carry_object jaco obj2 table1 table2
+achieve detect_pose_object jaco obj2 table2
+achieve place_object jaco obj2 table2
 teach_task table1 tray1
